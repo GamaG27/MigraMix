@@ -1,13 +1,14 @@
 {
-  "name": "migramix",
+  "name": "migramix-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -37,6 +38,7 @@
     "styled-components": "^6.0.8"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.1.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
@@ -47,6 +49,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.11"
+    "vite": "^4.4.11",
+    "vitest": "^0.34.6"
   }
 }
