@@ -1,5 +1,3 @@
-DROP DATABASE migramix IF EXISTS
-
 CREATE DATABASE migramix;
 
 CREATE TABLE users(

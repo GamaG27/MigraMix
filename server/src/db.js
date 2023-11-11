@@ -1,10 +1,10 @@
-import pg from "pg";
+import pg from 'pg';
 const { Pool } = pg;
 
-import dotenv from "dotenv";
-dotenv.config();
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
 
-console.log(process.env.TOKEN_SECRET);
+//console.log(process.env.TOKEN_SECRET);
 
 const pool = new Pool({
   user: process.env.PGUSER,
@@ -16,11 +16,11 @@ const pool = new Pool({
 
 pool.connect((error) => {
   if (error) {
-    console.log("DataBase connecton error ");
+    console.log('DataBase connecton error ');
     console.log(error);
     throw error;
   } else {
-    console.log("Successful connection to DataBase");
+    console.log('Successful connection to DataBase');
   }
 });
 
