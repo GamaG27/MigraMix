@@ -1,6 +1,6 @@
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "../assets/Slide.css";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import '../assets/Slide.css';
 import data from './ArtistsSection/ArtistsList.json';
 
 const ArtistProfile = () => {
@@ -9,12 +9,12 @@ const ArtistProfile = () => {
 
   return (
     <div className="max-w-4xl mx-auto ">
-      <Carousel showThumbs={false}>
+      <Carousel data-testid="carousel" showThumbs={false}>
         {shuffledArtists.map((artist) => (
           <div key={artist.id} className="relative ">
             <div
               style={{
-                backgroundImage: `url(${artist.artistProfilePicture})`,               
+                backgroundImage: `url(${artist.artistProfilePicture})`,
               }}
               className="bg-cover bg-clip-border bg-center h-[30rem] text-gray-700 shadow-xl"
             >

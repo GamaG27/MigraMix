@@ -1,23 +1,23 @@
-import Stack from "@mui/material/Stack";
-import Typography from "@mui/material/Typography";
-import ButtonExplore from "./ButtonExplore";
-import ButtonLogin from "./ButtonLogin"; 
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import ButtonExplore from './ButtonExplore';
+import ButtonLogin from './ButtonLogin';
 
 const Header = () => {
-   const HeaderStyle = {
-     backgroundImage: `url('/header.png')`,
-     backgroundSize: "cover", 
-     backgroundRepeat: "no-repeat", 
-     backgroundPosition: "center", 
-     backgroundColor: "rgba(255, 255, 255, 0.5)",
-   };
+  const HeaderStyle = {
+    backgroundImage: `url('/header.png')`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+  };
   return (
     <div className="p-12 text-center bg-cover bg-center" style={HeaderStyle}>
       <ButtonLogin />
       <Typography
         variant="h1"
         className="text-3xl md:text-5xl lg:text-7xl text-center text-[#F70808] text-800 transition duration-500 ease-in-out hover:scale-90"
-        style={{ fontFamily: "Audiowide, sans-serif" }}
+        style={{ fontFamily: 'Audiowide, sans-serif' }}
       >
         MIGRAMIX
       </Typography>
@@ -25,7 +25,7 @@ const Header = () => {
       <Typography
         variant="h4"
         className="mt-6 text-bold text-xl md:text-2xl lg:text-3xl p-7 text-gray-900 "
-        style={{ fontFamily: "Nunito Sans, sans-serif" }}
+        style={{ fontFamily: 'Nunito Sans, sans-serif' }}
       >
         Amplify Culture, Harmonize Art
       </Typography>

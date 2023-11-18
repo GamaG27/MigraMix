@@ -1,10 +1,10 @@
-# Migramix Website
+# Migramix
 
 Welcome to the Migramix website! This [README.md](./README.md) file provides an overview of our website, its features, and information about our development team.
 
 ## Table of Contents
 
-- [Migramix Website](#migramix-website)
+- [Migramix](#migramix)
   - [Table of Contents](#table-of-contents)
   - [About Migramix](#about-migramix)
     - [Demo](#demo)
@@ -26,7 +26,7 @@ Here is a working demo : **[Migramix]()**
 Migramix offers a wide range of features to enhance your social networking experience, including:
 
 1. **Events**:
-   - Discover new events taken from the [API]() and our own Database
+   - Discover new events taken from the [API](https://do.diba.cat/api/dataset/actesturisme_es/camp-data_inici-like/2023-11) and our own Database
    - Create your own events which will be displayed on the main screen for full visibility.
 2. **Profile Management**:
    - Create and customize your artist or event planner.
@@ -44,6 +44,7 @@ Migramix offers a wide range of features to enhance your social networking exper
 - [Express](http://expressjs.com/)
 - [Zod](https://zod.dev/)
 - [PostgreSQL](https://www.postgresql.org/)
+- [Firebase](https://firebase.google.com/)
 
 ## Meet the Team
 
