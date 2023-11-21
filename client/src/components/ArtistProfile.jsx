@@ -9,7 +9,7 @@ const ArtistProfile = () => {
 
   return (
     <div className="max-w-4xl mx-auto ">
-      <Carousel data-testid="carousel" showThumbs={false}>
+      <Carousel showThumbs={false}>
         {shuffledArtists.map((artist) => (
           <div key={artist.id} className="relative ">
             <div
